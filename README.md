@@ -19,6 +19,7 @@
     proxy_pass http://127.0.0.1:3000;
 }
 ```
+
 - sudo nginx -t
 - sudo systemctl restart nginx
 - kubectl apply -f ./istio-1.0.6/install/kubernetes/istio-demo.yaml
